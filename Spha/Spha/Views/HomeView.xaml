@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Spha.Views.HomeView">
+    <StackLayout  BackgroundColor="GreenYellow" Margin="10"
+                  Padding="55" >
+
+        <Label Text="أختر نوع التسبيح" 
+           FontFamily="55"
+           FontSize="30"
+           TextColor="Green"
+           FontAttributes="Bold" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <Button Text="تسبيح مفتوح"
+           FontSize="25"
+           Command="{Binding OpenSpha}"
+           TextColor="White"
+           FontAttributes="Bold" 
+           BackgroundColor="Green"     
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <Button Text="تسبيح الزهراء" 
+           FontSize="25"
+           Command="{Binding ZahraSpha}"
+           TextColor="White"
+           FontAttributes="Bold"      
+           BackgroundColor="Green"  
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <Button Text="تسبيح مئة مرة" 
+           FontSize="25"
+           TextColor="White"
+           Command="{Binding OneHundredSpha}"
+           FontAttributes="Bold"      
+           BackgroundColor="Green"  
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <Label Text="" 
+           FontSize="Large"
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+</ContentPage>

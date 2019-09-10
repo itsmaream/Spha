@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="نوع التسبيح"
+             BackgroundColor="Green"
+             x:Class="Spha.OutOfUse.SphaPage">
+
+    <Grid  BackgroundColor="GreenYellow" Margin="10">
+
+        <Grid.RowDefinitions>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Label Text="الله أكبر"
+           Grid.Row="0" Grid.RowSpan="3"
+           Grid.Column="0" Grid.ColumnSpan="2"   
+           x:Name="laL"
+           IsVisible="False"
+           FontSize="40"
+           TextColor="Green"
+           FontAttributes="Bold" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <Label Text="0"
+           Grid.Row="3" Grid.RowSpan="4"
+           Grid.Column="0" Grid.ColumnSpan="2"   
+           FontFamily="80"
+           x:Name="laC"
+           FontSize="100"
+           TextColor="Green"
+           FontAttributes="Bold" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <Button Text=" تسبيح "
+           Grid.Row="8" Grid.RowSpan="5"
+           Grid.Column="0" Grid.ColumnSpan="2" 
+           FontSize="60"
+           x:Name="BuFirst"
+           Clicked="BuFirst_Clicked"
+           TextColor="White"
+           FontAttributes="Bold" 
+           BackgroundColor="Green"     
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        
+        <Button Text="أعد"
+           Grid.Row="6" Grid.RowSpan="5"
+           Grid.Column="0" Grid.ColumnSpan="2" 
+           FontSize="30"
+           x:Name="bustart"
+           Clicked="Bustart_Clicked"
+           TextColor="White"
+           FontAttributes="Bold" 
+           BackgroundColor="Green"     
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <Label Text="" 
+           Grid.Row="13" Grid.RowSpan="1"
+           Grid.Column="0" Grid.ColumnSpan="2" 
+           FontSize="Large" />
+    </Grid>
+
+</ContentPage>

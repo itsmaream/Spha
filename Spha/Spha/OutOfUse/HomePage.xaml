@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="نوع التسبيح"
+             BackgroundColor="Green"
+             x:Class="Spha.OutOfUse.HomePage">
+
+    <StackLayout  BackgroundColor="GreenYellow" Margin="10"
+                  Padding="55" >
+       
+        <Label Text="أختر نوع التسبيح" 
+           FontFamily="55"
+           FontSize="30"
+           TextColor="Green"
+           FontAttributes="Bold" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <Button Text="تسبيح مفتوح"
+           FontSize="25"
+           x:Name="bu1"
+           Clicked="Bu1_Clicked"
+           TextColor="White"
+           FontAttributes="Bold" 
+           BackgroundColor="Green"     
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <Button Text="تسبيح الزهراء" 
+           FontSize="25"
+           x:Name="bu2"
+           Clicked="Bu2_Clicked"     
+           TextColor="White"
+           FontAttributes="Bold"      
+           BackgroundColor="Green"  
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <Button Text="تسبيح مئة مرة" 
+           FontSize="25"
+           x:Name="bu3"
+           Clicked="Bu3_Clicked"
+           TextColor="White"
+           FontAttributes="Bold"      
+           BackgroundColor="Green"  
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <Label Text="" 
+           FontSize="Large"
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+
+</ContentPage>
