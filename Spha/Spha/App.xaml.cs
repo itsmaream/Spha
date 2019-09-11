@@ -9,7 +9,6 @@ namespace Spha
         public App()
         {
             InitializeComponent();
-
             Application.Current.MainPage = new NavigationPage(new Views.SplashView());
         }
 

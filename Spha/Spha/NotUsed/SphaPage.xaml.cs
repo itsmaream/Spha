@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Spha.OutOfUse
+namespace Spha.NotUsed
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SphaPage : ContentPage

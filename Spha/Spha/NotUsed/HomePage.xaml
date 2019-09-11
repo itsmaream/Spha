@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              Title="نوع التسبيح"
              BackgroundColor="Green"
-             x:Class="Spha.OutOfUse.HomePage">
+             x:Class="Spha.NotUsed.HomePage">
 
     <StackLayout  BackgroundColor="GreenYellow" Margin="10"
                   Padding="55" >

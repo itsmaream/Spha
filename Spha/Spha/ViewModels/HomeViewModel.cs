@@ -9,9 +9,10 @@ namespace Spha.ViewModels
 {
     class HomeViewModel : BaseViewModel
     {
-        public ICommand ZahraSpha { get; }
-        public ICommand OneHundredSpha { get; }
-        public ICommand OpenSpha { get; }
+        public ICommand OpenSpha { get; }//Command for go to Open Spha (التسبيح المفتوح)
+        public ICommand ZahraSpha { get; }//Command for go to Zahra Spha (تسبيح الزهراء)
+        public ICommand OneHundredSpha { get; }//Command for go to One Hundred Spha (تسبيح مئة مرة)
+
         public HomeViewModel(INavigation navigation) : base(navigation)
         {
             OpenSpha = new Command(GoToOpenSpha);
@@ -20,15 +21,15 @@ namespace Spha.ViewModels
         }
         private async void GoToOpenSpha()
         {
-            await Navigation.PushModalAsync( new Views.SphaView("1"));
+            await Navigation.PushModalAsync( new Views.SphaView("1"));//Spha.ViewModels.SphaViewModel.Type="1"
         }
         private async void GoToZahraSpha()
         {
-            await Navigation.PushModalAsync(new Views.SphaView("2"));
+            await Navigation.PushModalAsync(new Views.SphaView("2"));//Spha.ViewModels.SphaViewModel.Type="2"
         }
         private async void GoToOneHundredSpha()
         {
-            await Navigation.PushModalAsync(new Views.SphaView("3"));
+            await Navigation.PushModalAsync(new Views.SphaView("3"));//Spha.ViewModels.SphaViewModel.Type="3"
         }
     }
 }

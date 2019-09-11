@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace Spha.OutOfUse
+namespace Spha.NotUsed
 {
     [DesignTimeVisible(false)]
     public partial class HomePage : ContentPage

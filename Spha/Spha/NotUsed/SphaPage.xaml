@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              Title="نوع التسبيح"
              BackgroundColor="Green"
-             x:Class="Spha.OutOfUse.SphaPage">
+             x:Class="Spha.NotUsed.SphaPage">
 
     <Grid  BackgroundColor="GreenYellow" Margin="10">
 

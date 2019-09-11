@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="OutOfUse\HomePage.xaml.cs">
+    <Compile Update="NotUsed\HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\SplashView.cs">
@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="OutOfUse\SphaPage.xaml">
+    <EmbeddedResource Update="NotUsed\SphaPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\HomeView.xaml">

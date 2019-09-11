@@ -9,14 +9,20 @@ namespace Spha.ViewModels
 {
     public class SphaViewModel:BaseViewModel
     {
-        private string counter;
-        private string textSpha;
+        private string counter;//Counter Text of spha
+        private string textSpha;//Text of spha in Zahra spha
+        /*
+         string type is Type of spha
+         "1" Means that Open spha
+         "2" Means that Zahra spha
+         "3" Means that One Hundred spha 
+        */
         public string type;
-        public int i = 0;
-        public int j = 0;
-        public int f = 0;
-        public ICommand AddSpha { get; }
-        public ICommand ZeroSpha { get; }
+        public int i = 0;//counter 1
+        public int j = 0;//counter 2
+        public int f = 0;//counter 3
+        public ICommand AddSpha { get; }//Command of spha button (تسبيح)
+        public ICommand ZeroSpha { get; }//Command of zero button (أعد)
         public SphaViewModel(INavigation navigation, string Ty) : base(navigation)
         {
             type = Ty;
@@ -51,12 +57,12 @@ namespace Spha.ViewModels
                 SecondType();
             }
         }
-        public void First_Therd_Type()
+        private void First_Therd_Type()
         {
             i++;
             Counter = i.ToString();
         }
-        public void SecondType()
+        private void SecondType()
         {
             if (i < 34)
             {

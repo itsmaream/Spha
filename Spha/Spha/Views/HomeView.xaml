@@ -4,8 +4,9 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             BackgroundColor="Green"
              x:Class="Spha.Views.HomeView">
-    <StackLayout  BackgroundColor="GreenYellow" Margin="10"
+    <StackLayout  BackgroundColor="White" Margin="5"
                   Padding="55" >
 
         <Label Text="أختر نوع التسبيح" 

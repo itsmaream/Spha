@@ -4,8 +4,9 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             BackgroundColor="Green"
              x:Class="Spha.Views.SphaView">
-    <Grid  BackgroundColor="GreenYellow" Margin="10">
+    <Grid  BackgroundColor="White" Margin="5">
 
         <Grid.RowDefinitions>
             <RowDefinition />
